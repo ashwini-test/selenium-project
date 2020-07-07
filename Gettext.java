@@ -8,8 +8,7 @@ public class Gettext {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "//Users//akash.shinde//Eclipse//chromedriver");
-		
+		System.setProperty("webdriver.chrome.driver", "C:\\Projects\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		
 		driver.get("https://login.salesforce.com");

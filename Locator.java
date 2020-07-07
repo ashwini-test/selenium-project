@@ -10,9 +10,9 @@ public class Locator {
 	public static void main(String args[] )
 	
 	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Projects\\chromedriver.exe");
 		
-		System.setProperty("webdriver.chrome.driver", "//Users//akash.shinde//Eclipse//chromedriver");
-	    WebDriver driver = new ChromeDriver();
+		 WebDriver driver = new ChromeDriver();
 	    
 	    driver.get("http://facebook.com");
 		
